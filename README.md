@@ -1,15 +1,49 @@
-# Quick Web Scraper
+# Quick Data Scraper (Python)
 
-Este script extrae información de productos de cualquier página web simple y guarda los datos en un archivo CSV.
+A simple and flexible Python script to extract data from websites and export it into a clean CSV file.
 
-## Cómo usarlo:
+## Features
 
-1. Instala Python 3 y las librerías necesarias:
-   pip install requests beautifulsoup4
+- Extracts product-like data automatically
+- Works with many websites (basic structure)
+- Handles connection errors and timeouts
+- Saves results in CSV format
+- Easy to customize for specific websites
 
-2. Ejecuta el script:
-   python scraper.py
+## Requirements
 
-3. Introduce la url deseada
+- Python 3
+- requests
+- beautifulsoup4
 
-4. Obtén `products.csv` con los datos listos para usar
+Install dependencies:
+pip install requests beautifulsoup4
+
+## How to Use
+
+1. Run the script:
+   python WebScraper.py
+
+2. Enter the website URL when prompted
+
+3. (Optional) Enter a custom filename for the CSV
+
+4. The script will extract data and generate a CSV file
+
+## Notes
+
+- Results depend on website structure
+- Some websites may require custom adjustments
+- If few results are found, the script can be optimized for that specific site
+
+## Custom Work
+
+I can customize this script for your specific website and needs.
+
+- Data extraction
+- Automation tasks
+- Clean structured output
+
+## Contact
+
+Available for freelance work (crypto payments accepted)
