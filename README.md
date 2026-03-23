@@ -1,3 +1,5 @@
+## (Example Python script to extract data from websites into csv files)
+
 # Quick Data Scraper (Python)
 
 A simple and flexible Python script to extract data from websites and export it into a clean CSV file.
